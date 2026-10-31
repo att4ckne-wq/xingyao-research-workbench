@@ -1,0 +1,9 @@
+flowchart TB
+ U[研究者 · 浏览器React工作台] --> N[本地Node服务 / 同源API代理]
+ N --> A[FastAPI业务服务]
+ A --> W[(Workbench / 内嵌Paper SQLite与项目文件)]
+ A --> T[任务Worker · 文档与制图导出]
+ A --> C{用户确认发送选定上下文}
+ C --> M[用户配置的在线模型 · 返回问题、解释与验证工作稿]
+ M --> H[研究者核对数值与来源 · 保存或修订]
+ H --> A

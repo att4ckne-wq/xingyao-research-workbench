@@ -1,0 +1,20 @@
+.research-entry { display:flex;flex-wrap:wrap;gap:8px;padding:14px 18px 4px; }
+.research-entry p { width:100%;font-size:12px;line-height:1.6;color:var(--ink-muted);margin:0; }
+.candidate-actions { display:flex;flex-wrap:wrap;gap:6px; }
+.candidate-actions .mini-button { flex:1 1 70px; }
+.candidate-card[data-reference="true"] .candidate-visual { min-height:60px;height:60px;gap:8px; }
+.candidate-card[data-reference="true"] .score { display:none; }
+.preview-unavailable { font-size:12px;max-width:150px;line-height:1.5; }
+.candidate-visual { gap:10px; }
+.source-edit-issues { margin:10px 0;padding-left:20px;font-size:12px;line-height:1.7;color:var(--ink-muted); }
+.runtime-disclosure { margin-top:20px;border:1px solid var(--line);border-radius:14px;padding:12px 16px; }
+.runtime-disclosure summary { cursor:pointer;font-size:13px;color:var(--ink-muted); }
+.runtime-disclosure .runtime-overview { margin-top:14px;border:0;padding:0; }
+.chart-style-editor>summary { cursor:pointer;min-height:40px;align-items:center; }
+.chart-style-editor[open]>.statistics-fields { margin-top:12px; }
+.document-empty-state strong { font-size:16px;line-height:1.5; }
+.document-empty-state span { display:block;margin-top:6px;line-height:1.7; }
+.document-empty-state a { white-space:normal;overflow-wrap:anywhere;justify-content:flex-start; }
+.research-entry .button:focus-visible,.runtime-disclosure summary:focus-visible { outline:2px solid var(--accent);outline-offset:3px; }
+
+.context-disclosure summary { cursor:pointer;font-size:12px;color:var(--ink-muted); }

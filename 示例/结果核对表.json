@@ -1,0 +1,43 @@
+{
+  "synthetic": true,
+  "actual_experiment": false,
+  "rows": 12,
+  "summary": [
+    {
+      "treatment_min": 0,
+      "mean_response_au": "1.00",
+      "n_synthetic": 3,
+      "sample_sd_au": "0.02"
+    },
+    {
+      "treatment_min": 5,
+      "mean_response_au": "1.20",
+      "n_synthetic": 3,
+      "sample_sd_au": "0.02"
+    },
+    {
+      "treatment_min": 10,
+      "mean_response_au": "1.36",
+      "n_synthetic": 3,
+      "sample_sd_au": "0.02"
+    },
+    {
+      "treatment_min": 15,
+      "mean_response_au": "1.37",
+      "n_synthetic": 3,
+      "sample_sd_au": "0.02"
+    }
+  ],
+  "mean_difference_15_minus_10": "0.01",
+  "perturbation": {
+    "operation": "Add 0.10 to all three 15-minute synthetic responses in a new copy",
+    "mean_response_15": "1.47",
+    "mean_difference_15_minus_10": "0.11"
+  },
+  "not_supported": [
+    "statistical significance",
+    "causal mechanism",
+    "real independent biological or experimental replicates",
+    "optimal real process time"
+  ]
+}

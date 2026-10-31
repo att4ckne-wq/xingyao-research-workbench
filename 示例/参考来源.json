@@ -1,0 +1,8 @@
+{
+  "title": "PROV-O: The PROV Ontology",
+  "source_url": "https://www.w3.org/TR/prov-o/",
+  "publisher": "W3C",
+  "published": "2013-04-30",
+  "role": "Reference for provenance concepts only, not evidence for the synthetic treatment response",
+  "included_content": "metadata and link only; no copied article text or figures"
+}
