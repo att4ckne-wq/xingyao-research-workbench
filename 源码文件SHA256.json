@@ -384,8 +384,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5089,
-      "sha256": "5888356a51c1f339e1d6477563effd4adb2134363a54c9d336daceccc1ea4ba8"
+      "bytes": 4238,
+      "sha256": "bca0384c47df23b1f2636345dad65784ad7e9d444d2e9142fc2538f70e2f2e8d"
     },
     {
       "path": "scripts/local-server.mjs",
@@ -459,13 +459,13 @@
     },
     {
       "path": "文档/产品说明书.md",
-      "bytes": 7128,
-      "sha256": "23b4fc55c5d531abd66ac5c8531afe557828fc0bd65302c7cb66e59d3deeff0d"
+      "bytes": 6684,
+      "sha256": "656ebb6b4188a747a979dc6f626b21679496f6f83dd265b07fbb5d0b10487177"
     },
     {
       "path": "文档/架构与流程.md",
-      "bytes": 2504,
-      "sha256": "887934c73f673756570842350aa08ee5a5ed675030d97cd77e79ba73901b2728"
+      "bytes": 2442,
+      "sha256": "e153fc4717ed4e341e43d838e0bcc79559ca652154fdf3f21835f8f4b492c040"
     },
     {
       "path": "文档/核心AI流程图.mmd",
@@ -489,8 +489,8 @@
     },
     {
       "path": "文档/评审操作说明.md",
-      "bytes": 3685,
-      "sha256": "10dbeea413bcdb3220a152150833526e85fedf0a0421e81628a2b2930abea8ba"
+      "bytes": 3346,
+      "sha256": "9c8c8c035f3aa87b4b53a505d8bff06cdac96f69ae782ca936e61363f6ddcda2"
     },
     {
       "path": "示例/原始测量数据.csv",

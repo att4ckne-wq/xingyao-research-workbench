@@ -4,9 +4,9 @@
 
 ## 评审者从哪里开始
 
-不想配置开发环境：请使用同一提交材料中的“可运行演示/启动评审版.cmd”，它附带Windows x64运行时，并用独立数据目录首次建库。先点“检查环境.cmd”，启动后登录本机账户，再执行“载入合成样例.cmd”。首次登录后应修改默认开发密码，模型服务默认未配置。
+评委可浏览公开仓库，或解压赛事材料中的源码快照。固定评审版本为 [7a5afdf](https://github.com/att4ckne-wq/xingyao-research-workbench/tree/7a5afdf54c7a39a3a258113d8c2db96e99d7687d)。
 
-源码仓库本身不等于完整便携运行包，也没有远程体验网址。私有源码仓库为[att4ckne-wq/xingyao-research-workbench](https://github.com/att4ckne-wq/xingyao-research-workbench)，访问需仓库读取权限；源码上传和核对结果以完整提交包“授权与版本/版本与验证摘要”为准；即使无法访问GitHub，完整比赛提交包仍包含本源码和本地运行版。
+在 Windows x64 上按下文构建和启动。Windows 便携运行包正在内部验收，正式附件以 [Releases](https://github.com/att4ckne-wq/xingyao-research-workbench/releases) 为准。
 
 ## 核心能力
 
@@ -19,7 +19,7 @@
 
 ## 源码复现
 
-此路径面向有开发环境的评审者；普通评审优先使用随包运行版。支持目标为Windows 10/11 x64。源码需要Python3.12和Node.js>=22.13；OCR还需Tesseract及chi_sim/eng/osd语言包，主合成案例使用Markdown/CSV可先不用OCR。
+支持 Windows 10/11 x64。源码需要 Python 3.12、Node.js ≥22.13。OCR 另需 Tesseract 及 chi_sim、eng、osd 语言包。
 
 在仓库目录中按各工具正式说明准备环境，然后执行：
 
@@ -59,4 +59,4 @@ npm run build
 - [开源与工具来源声明](授权/开源与工具来源声明.md)、[第三方依赖与来源](授权/第三方依赖与来源.md)、[再分发核查待办](授权/再分发核查待办.md)。这些说明中的便携运行时路径指完整比赛提交包，源码ZIP不含运行时二进制。
 - [文件SHA256清单](源码文件SHA256.json)仅列仓库相对路径，不含清单自身。可据此核验源码ZIP内容。
 
-私有源码仓库链接：[https://github.com/att4ckne-wq/xingyao-research-workbench](https://github.com/att4ckne-wq/xingyao-research-workbench)。仓库已创建，访问仍需账号具有读取权限；本轮未自动添加评委或其他协作者。发行、上传与逐文件核对结果以完整提交包中的“授权与版本/版本与验证摘要”为准。当前源码ZIP可独立阅读，运行环境仍须按上文复现说明准备。
+赛事源码 ZIP 对应上述固定评审提交。后续说明更新可在提交历史查阅。
